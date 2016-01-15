@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mpoo.ufrpe.projetoalergia.gui.PerfilRemedioActivity">
+
+
+    <item android:id="@+id/action_sair" android:title="Sair"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_home" android:title="Home"
+        android:orderInCategory="100" app:showAsAction="always"
+        android:showAsAction="always" android:icon="@drawable/home"/>
+
+
+</menu>

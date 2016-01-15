@@ -1,0 +1,71 @@
+Autor - Joao Guilherme
+Aqui eh o leiame do projeto!
+
+Depois de muito rodar aprendemos como configurar e usar o git:
+primeiro o "clone uri" desse projeto sempre sera:
+ssh://git@nachos.ftp.sh:8822/opt/git/alergia_project.git
+
+senha pra escrita: "ufrpe-project"
+
+Modo de usar basico:
+
+Para checar se existe atualizacoes e receber as novas alteracoes apartir do servidor use commando:
+
+-> git pull
+
+Ele pode mostrar que nao ha alteracoes (vc esta atualizado) ou vai receber o commit com as atualizacoes,
+o commit é como eh chamado o conjunto de alteracoes necessarias pra implementar alguma coisa ou consertar
+partes do codigo... cada commit obrigatoriamente tera:
+ - Uma descricao do commit: Explica o que o commit faz,
+ - Autor do commit: Nome do autor seguido por <email@doautor.algo>
+
+ apos o git pull vc estara atualizado podendo fazer alguma alteracao no codigo neste ponto...
+
+ apos terminar de alterar o codigo vc agora tera que fazer dois passos que podem ser feito ao mesmo tempo
+ na maioria das IDE de programacao: o commit da alteracao e o push pra enviar, pode aparecer como commit e push.
+
+ Vamos ver separadamente:
+
+ -> git commit
+
+ Se vc alterou alguma coisa desde q fez um pull no projeto, o git pega todas as alteracoes e mostra numa tela
+ de commit q eh um resumo do q foi alterado (em alguns editores vc pode selecionar ainda individualmente partes
+ das alteracoes e ainda separar os commit em partes menores se desejar, mas no geral vamos agrupar os commits,
+ pois estaremos tentando implementar as coisas ao pouco e por partes, geralmente trabalhando na funcao ou
+ parte do programa salvando localmente normalmente via editor e so daremos o commit qd a parte estiver completa,
+ evitando que o git receba codigo quebrado e incompĺeto ao ponto de nem funcionar).
+ Geralmente o passo do commit eh concluido sem mensagens de erro...
+
+  -> git push
+
+  Assim q o commit esta pronto e ja foi identificado com uma descricao e um autor, teriamos q efetuar o push
+  que serve pra enviar as alteracoes q vc fez atravez do commit para o servidor principal e assim sendo
+  finalmente incorporada ao projeto e sera visto por todos (que serao atualizados na proxima vez que os
+  outros desenvolvedores executarem o git pull para receber as modificacoes).
+
+  Porem as vezes enquanto estamos mexendo em uma versao do codigo, outra pessoa tbm pode estar mexendo em outra
+  parte do codigo, vamos supor q outra pessoa alterou o git com um commit enquanto vc trabalhava numa funcao, mais
+  tarde quando vc terminar e gerar seu commit, no momento do push o git vai negar a efetuar o push diretamente pq a
+  versao existente no servidor sera mais "nova" do que a versao q seu commit estava baseado, nesse momento o push falhara
+  com uma mensagem de erro, o que eh normal nessa situacao. Na verdade o que tem q ser feito eh resolver o conflito
+  incorporando as mudancas "novas" que estao presentes no servidor como um passo anterior ao push q vc esta tentando
+  fazer, assim as mudancas sao adicionadas ao seu codigo com um "merge" que significa de modo grosso "misturar" nesse
+  momento cada caso eh um caso e cabe ao desenvolvedor acomodar todas as mudancas vindas atraves do git antes de conseguir
+  fazer o push, mas geralmente o comando:
+
+  -> git merge
+
+  tenta receber as atualizacoes do servidor aplicar ao seu codigo local, aplicando as ateracoes na sua arvore antes de
+  tentar "misturar" o commit q vc fez nessa nova e mais atualizada versao do projeto. Se tudo der certo apos o "merge"
+  vc vai ser capaz de mandar as alteracoes q vc tava trabalhando via "git push" dessa vez sem dar erro.
+
+ Como o git eh poderoso e cheio de outras opcoes, pedimos cuidados ao "mexer" em outras partes dos menus do git, verifique
+ se esta usando as opcoes corretas senao coisas ruins podem acontecer!
+
+ Qualquer duvida pode colocar suas perguntas no arquivo conversas.txt.
+
+
+
+
+
+

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CadastroActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical" >
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome"
+            android:singleLine="true"
+            android:layout_marginTop="40dp"
+            android:textColorHint="#000080"
+            android:background="@drawable/barra_de_texto"
+            android:id="@+id/edtNomePessoa"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CPF"
+            android:textColorHint="#000080"
+            android:background="@drawable/barra_de_texto"
+            android:singleLine="true"
+            android:layout_below="@id/edtNomePessoa"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edtCpf"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#000080"
+            android:hint="Data De Nascimento"
+            android:singleLine="true"
+            android:layout_below="@+id/edtCpf"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/barra_de_texto"
+            android:id="@+id/edtDataDeNascimentoCadastro"
+
+            />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtDataDeNascimentoCadastro"
+            android:singleLine="true"
+            android:textColorHint="#000080"
+            android:background="@drawable/barra_de_texto"
+            android:id="@+id/edtLoginCadastro"
+            android:layout_marginTop="20dp"
+            android:hint="Login"/>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:password="true"
+            android:layout_height="wrap_content"
+            android:textColorHint="#000080"
+            android:id="@+id/edtSenhaCadastro"
+            android:singleLine="true"
+            android:background="@drawable/barra_de_texto"
+            android:layout_below="@id/edtLoginCadastro"
+            android:layout_marginTop="20dp"
+            android:hint="Senha"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:password="true"
+            android:layout_height="wrap_content"
+            android:textColorHint="#000080"
+            android:id="@+id/edtConfirmarSenhaCadastro"
+            android:background="@drawable/barra_de_texto"
+            android:singleLine="true"
+            android:layout_below="@id/edtSenhaCadastro"
+            android:layout_marginTop="20dp"
+            android:hint="Repita a senha"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_marginTop="40dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+
+
+
+
+
+            <Button
+                android:id="@+id/iv"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="-170dp"
+                android:text=""
+                android:background="@drawable/pasta"
+                android:onClick="pegarImg"
+                android:layout_gravity="right" />
+
+
+        <TextView
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Enviar foto"
+            android:textColor="#000080"
+            android:id="@+id/textView"
+            android:layout_gravity="right" />
+
+        <Button
+                android:id="@+id/button1"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/foto_img"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:onClick="tirarFoto"
+                android:layout_gravity="right" />
+
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Tirar foto"
+            android:textColor="#000080"
+            android:id="@+id/textView2"
+            android:layout_gravity="right" />
+
+        <Button
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cadastrar"
+            android:background="@drawable/botao"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:textColorHint="#000080"
+            android:id="@+id/btnCadastrarCadastro"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</ScrollView>

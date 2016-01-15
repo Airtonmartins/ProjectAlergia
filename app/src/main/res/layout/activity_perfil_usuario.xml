@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    tools:context="mpoo.ufrpe.projetoalergia.gui.PerfilUsuarioActivity">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome -  "
+        android:textColor="#000080"
+        android:layout_marginTop="30dp"
+        android:id="@+id/CampoNome"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/txtNome"
+        android:layout_alignBaseline="@+id/CampoNome"
+        android:layout_alignBottom="@+id/CampoNome"
+        android:layout_toRightOf="@+id/CampoNome"
+        android:layout_toEndOf="@+id/CampoNome" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CPF -  "
+        android:textColor="#000080"
+        android:id="@+id/CampoCpf"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/CampoNome"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/txtCpf"
+        android:layout_alignBaseline="@+id/CampoCpf"
+        android:layout_alignBottom="@+id/CampoCpf"
+        android:layout_toRightOf="@+id/CampoCpf"
+        android:layout_toEndOf="@+id/CampoCpf" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data de nascimento -  "
+        android:textColor="#000080"
+        android:id="@+id/CampoDataNascimento"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/txtCpf"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/txtDataNascimento"
+        android:layout_alignTop="@+id/CampoDataNascimento"
+        android:layout_toRightOf="@+id/CampoDataNascimento"
+        android:layout_toEndOf="@+id/CampoDataNascimento" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista Negra "
+        android:textColor="#000080"
+        android:id="@+id/CampoListaNegra"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/CampoDataNascimento"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lstRemedios"
+        android:layout_below="@+id/txtCpf"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:divider="#ECECEC"
+        android:dividerHeight="1sp"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView"
+        android:layout_above="@+id/txtDataNascimento"
+        android:layout_toEndOf="@+id/txtDataNascimento"
+        android:layout_alignTop="@+id/txtNome" />
+
+
+</RelativeLayout>

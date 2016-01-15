@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Medicine Allergy</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pesquisa">Menu Pesquisa</string>
+    <string name="title_activity_cadastro">Cadastrar</string>
+    <string name="title_activity_perfil_remedio">Remedio</string>
+    <string name="btn_cadastrar">btn_cadastrar</string>
+    <string name="txtNome">txtNome</string>
+    <string name="pesquisarString">Procurar alergias</string>
+
+</resources>

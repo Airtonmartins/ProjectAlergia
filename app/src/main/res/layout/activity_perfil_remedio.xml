@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView2">
+
+    <RelativeLayout
+    android:background="@drawable/background"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remédio: "
+        android:textColor="#000080"
+        android:layout_marginTop="40dp"
+        android:id="@+id/CampoNome"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="New Text"
+        android:layout_marginLeft="90dp"
+        android:id="@+id/txtNome"
+        android:layout_alignParentTop="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fabricante: "
+        android:textColor="#000080"
+        android:id="@+id/CampoCpf"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/CampoNome"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:layout_marginLeft="90dp"
+        android:id="@+id/txtCpf"
+        android:layout_alignTop="@+id/CampoCpf"
+        />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lstComponente"
+        android:layout_below="@+id/txtCpf"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Componentes "
+        android:textColor="#000080"
+        android:id="@+id/txtComponente"
+        android:layout_below="@+id/txtCpf"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="40dp"
+        android:onClick="onClickComponente"
+        android:clickable="true"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peso(mg) "
+        android:textColor="#000080"
+        android:id="@+id/txtPeso"
+        android:layout_below="@+id/txtCpf"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="250dp"
+        android:onClick="onClickPeso"
+        android:clickable="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddListaNegra"
+        android:onClick="onClickPeso"
+
+        android:clickable="true"
+        android:layout_above="@+id/txtCpf"
+        android:layout_alignLeft="@+id/txtPeso"
+        android:layout_alignStart="@+id/txtPeso" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000080"
+            android:text="Cód. Barras:"
+            android:id="@+id/textView"
+            android:layout_below="@+id/CampoCpf"
+            android:layout_alignLeft="@+id/CampoCpf"
+            android:layout_alignStart="@+id/CampoCpf" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/textView2"
+            android:layout_marginTop="21dp"
+            android:layout_below="@+id/CampoCpf"
+            android:layout_toRightOf="@+id/textView"
+            android:layout_toEndOf="@+id/textView" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/txtCpf"
+            android:layout_alignRight="@+id/CampoNome"
+            android:layout_alignEnd="@+id/CampoNome" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/imagemperigo"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_toRightOf="@+id/txtComponente"
+            android:layout_toEndOf="@+id/txtComponente" />
+    </RelativeLayout>
+</RelativeLayout>
