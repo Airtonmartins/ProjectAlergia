@@ -15,9 +15,6 @@ import mpoo.ufrpe.projetoalergia.dominio.dominoRemedio.RemedioDTO;
 import mpoo.ufrpe.projetoalergia.negocio.Sessao;
 
 
-/**
- * Created by Allan on 17/10/2015.
- */
 public class RemedioDAO {
 
     private static Helper helper;
