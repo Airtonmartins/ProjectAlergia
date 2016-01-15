@@ -2,53 +2,53 @@
 <items version="2" >
 
     <item
-        jar="/home/airton/AndroidStudioProjects/alergia_project/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jar="/home/airton/AndroidStudioProjects/ProjectAlergia/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/home/airton/AndroidStudioProjects/alergia_project/app/build/intermediates/pre-dexed/debug/classes-f5ae414fd6e83ff86cfdabf414e79092aeccdc5e.jar" />
+        <dex dex="/home/airton/AndroidStudioProjects/ProjectAlergia/app/build/intermediates/pre-dexed/debug/classes-abc0dbdd944538626a28e3580928e4d3022ac136.jar" />
     </item>
     <item
-        jar="/home/airton/AndroidStudioProjects/alergia_project/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="15f1c7a4c01dd95b6da8c5acfaf42d2075d1ae2a">
-        <dex dex="/home/airton/AndroidStudioProjects/alergia_project/app/build/intermediates/pre-dexed/debug/classes-4c6e6bef64f2cfa0ed0239b065a8558ea690c756.jar" />
-    </item>
-    <item
-        jar="/home/airton/AndroidStudioProjects/alergia_project/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.2/jars/libs/zbar.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
-        <dex dex="/home/airton/AndroidStudioProjects/alergia_project/app/build/intermediates/pre-dexed/debug/zbar-117ee02a7e5c76e55be9b1e70c3303061349fb35.jar" />
-    </item>
-    <item
-        jar="/home/airton/AndroidStudioProjects/alergia_project/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/home/airton/AndroidStudioProjects/alergia_project/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-3198d05f6e8e80949456c17015b72be70ec59ca9.jar" />
-    </item>
-    <item
-        jar="/home/airton/AndroidStudioProjects/alergia_project/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.8.2/jars/classes.jar"
+        jar="/home/airton/AndroidStudioProjects/ProjectAlergia/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.8.2/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="96c83d4de6289a3f674165f896ac992564a7138d">
-        <dex dex="/home/airton/AndroidStudioProjects/alergia_project/app/build/intermediates/pre-dexed/debug/classes-de8b41001680c416a5a722d3e308d215ca4973e7.jar" />
+        <dex dex="/home/airton/AndroidStudioProjects/ProjectAlergia/app/build/intermediates/pre-dexed/debug/classes-24d6ccdfa2d4a783ca669d8afa5fca04d88b0b6f.jar" />
+    </item>
+    <item
+        jar="/home/airton/AndroidStudioProjects/ProjectAlergia/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="15f1c7a4c01dd95b6da8c5acfaf42d2075d1ae2a">
+        <dex dex="/home/airton/AndroidStudioProjects/ProjectAlergia/app/build/intermediates/pre-dexed/debug/classes-aa80fffc04b80a5d322ed106bc81c47422ccf55a.jar" />
     </item>
     <item
         jar="/home/airton/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/home/airton/AndroidStudioProjects/alergia_project/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-bc96f6292d65c8d22ac2ba3ab430a33f7e8ce0c3.jar" />
+        <dex dex="/home/airton/AndroidStudioProjects/ProjectAlergia/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-bc96f6292d65c8d22ac2ba3ab430a33f7e8ce0c3.jar" />
     </item>
     <item
-        jar="/home/airton/AndroidStudioProjects/alergia_project/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jar="/home/airton/AndroidStudioProjects/ProjectAlergia/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/airton/AndroidStudioProjects/ProjectAlergia/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-626d0fc179e9c4ee7aac4acacd80b7710d82c7f4.jar" />
+    </item>
+    <item
+        jar="/home/airton/AndroidStudioProjects/ProjectAlergia/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.2/jars/libs/zbar.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="/home/airton/AndroidStudioProjects/ProjectAlergia/app/build/intermediates/pre-dexed/debug/zbar-cbdf2ca6cb0a4fa4cbdd967595da4a711ba38fd5.jar" />
+    </item>
+    <item
+        jar="/home/airton/AndroidStudioProjects/ProjectAlergia/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/home/airton/AndroidStudioProjects/alergia_project/app/build/intermediates/pre-dexed/debug/classes-f08d911d7a917113c69d3bf855bacfdec3f8b4f8.jar" />
+        <dex dex="/home/airton/AndroidStudioProjects/ProjectAlergia/app/build/intermediates/pre-dexed/debug/classes-0d6cb4dbe90c320b87dbe4ef13c0bce1c947bcd8.jar" />
     </item>
 
 </items>
