@@ -13,9 +13,7 @@ import java.util.List;
 import mpoo.ufrpe.projetoalergia.R;
 import mpoo.ufrpe.projetoalergia.dominio.dominoRemedio.RemedioDTO;
 
-/**
- * Created by Airton on 08/11/2015.
- */
+
 public class AdapterListRemedio extends BaseAdapter {
     private LayoutInflater mInflater;
     private List<RemedioDTO> itens;

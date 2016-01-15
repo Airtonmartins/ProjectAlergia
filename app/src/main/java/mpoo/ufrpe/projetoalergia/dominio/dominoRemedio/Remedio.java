@@ -2,9 +2,6 @@ package mpoo.ufrpe.projetoalergia.dominio.dominoRemedio;
 
 import java.util.List;
 
-/**
- * Created by Allan on 16/10/2015.
- */
 public class Remedio {
 
     private int id;

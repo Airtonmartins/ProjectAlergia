@@ -12,9 +12,7 @@ import mpoo.ufrpe.projetoalergia.dominio.dominoRemedio.Componente;
 import mpoo.ufrpe.projetoalergia.negocio.infra.ProjetoAlergiaException;
 import mpoo.ufrpe.projetoalergia.negocio.infra.Util;
 
-/**
- * Created by Allan on 15/10/2015.
- */
+
 public class UsuarioNegocio  {
 
     private static RemedioDAO daoRemedio;

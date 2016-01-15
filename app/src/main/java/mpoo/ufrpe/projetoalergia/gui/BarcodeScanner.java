@@ -1,8 +1,6 @@
 package mpoo.ufrpe.projetoalergia.gui;
 
-/**
- * Created by Carlos Ivan on 25/11/2015.
- */
+
 
 import android.content.Context;
 import android.content.Intent;
@@ -26,9 +24,7 @@ import mpoo.ufrpe.projetoalergia.R;
 import mpoo.ufrpe.projetoalergia.negocio.RemedioNegocio;
 import mpoo.ufrpe.projetoalergia.negocio.infra.ProjetoAlergiaException;
 
-/**
- * Created by kvprasad on 10/3/2015.
- */
+
 
 public class BarcodeScanner extends AppCompatActivity {
 

@@ -7,9 +7,7 @@ import java.util.List;
 
 import mpoo.ufrpe.projetoalergia.dominio.dominoRemedio.RemedioDTO;
 
-/**
- * Created by Allan on 16/10/2015.
- */
+
 public class Pessoa {
 
     private int id;

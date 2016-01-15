@@ -15,9 +15,7 @@ import mpoo.ufrpe.projetoalergia.dominio.dominioPessoa.Usuario;
 import mpoo.ufrpe.projetoalergia.negocio.Sessao;
 import mpoo.ufrpe.projetoalergia.negocio.infra.ProjetoAlergiaException;
 
-/**
- * Created by Allan on 16/10/2015.
- */
+
 public class UsuarioDAO {
 
     private static Helper helper;

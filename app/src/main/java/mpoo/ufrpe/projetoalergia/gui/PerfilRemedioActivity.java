@@ -23,9 +23,7 @@ import mpoo.ufrpe.projetoalergia.negocio.UsuarioNegocio;
 import mpoo.ufrpe.projetoalergia.negocio.infra.ComparatorComponentePeso;
 import mpoo.ufrpe.projetoalergia.negocio.infra.ProjetoAlergiaException;
 
-/**
- * Created by Airton on 01/11/2015.
- */
+
 public class PerfilRemedioActivity extends AppCompatActivity {
 
     private static Context contexto;

@@ -2,9 +2,7 @@ package mpoo.ufrpe.projetoalergia.dominio.dominoRemedio;
 
 import android.net.Uri;
 
-/**
- * Created by Airton on 08/11/2015.
- */
+
 public class RemedioDTO {
 
     private int id;

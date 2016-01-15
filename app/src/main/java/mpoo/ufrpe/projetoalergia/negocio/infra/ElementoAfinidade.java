@@ -1,8 +1,6 @@
 package mpoo.ufrpe.projetoalergia.negocio.infra;
 
-/**
- * Created by zuao on 23/11/15.
- */
+
 public class ElementoAfinidade {
 
     private int id;

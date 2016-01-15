@@ -3,9 +3,6 @@ package mpoo.ufrpe.projetoalergia.dominio.dominoRemedio;
 import java.text.Collator;
 import java.util.Locale;
 
-/**
- * Created by Allan on 16/10/2015.
- */
 
 public class Componente implements Comparable<Componente> {
 

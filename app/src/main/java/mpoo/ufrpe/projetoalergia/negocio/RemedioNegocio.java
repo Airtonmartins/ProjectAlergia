@@ -19,9 +19,7 @@ import mpoo.ufrpe.projetoalergia.negocio.infra.ProjetoAlergiaException;
 
 import static mpoo.ufrpe.projetoalergia.negocio.infra.Util.afinidadeEuclidiana;
 
-/**
- * Created by Allan on 17/10/2015.
- */
+
 
 public class RemedioNegocio {
 

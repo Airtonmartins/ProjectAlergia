@@ -10,9 +10,7 @@ import java.util.regex.Pattern;
 
 import mpoo.ufrpe.projetoalergia.R;
 
-/**
- * Created by Allan on 14/10/2015.
- */
+
 public class GuiUtil extends AppCompatActivity {
 
     public static final Uri FOTO_PADRAO = Uri.parse("android.resource://mpoo.ufrpe.projetoalergia/"+R.drawable.usuario_padrao);

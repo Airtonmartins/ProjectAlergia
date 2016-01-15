@@ -1,8 +1,6 @@
 package mpoo.ufrpe.projetoalergia.gui;
 
-/**
- * Created by Carlos Ivan on 25/11/2015.
- */
+
 
 import android.content.Context;
 import android.hardware.Camera;

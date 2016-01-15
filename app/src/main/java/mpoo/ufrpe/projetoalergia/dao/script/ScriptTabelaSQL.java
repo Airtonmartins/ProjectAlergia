@@ -1,8 +1,6 @@
 package mpoo.ufrpe.projetoalergia.dao.script;
 
-/**
- * Created by Airton on 12/11/2015.
- */
+
 public class ScriptTabelaSQL {
     public static String getTabelaPessoa() {
 

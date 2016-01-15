@@ -3,9 +3,7 @@ package mpoo.ufrpe.projetoalergia.negocio;
 import mpoo.ufrpe.projetoalergia.dominio.dominioPessoa.Pessoa;
 import mpoo.ufrpe.projetoalergia.dominio.dominioPessoa.Usuario;
 
-/**
- * Created by Carlos Ivan on 28/10/2015.
- */
+
 public class Sessao {
     /* singleton */
     private static Sessao instancia = new Sessao();

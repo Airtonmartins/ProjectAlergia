@@ -22,9 +22,7 @@ import mpoo.ufrpe.projetoalergia.dominio.dominioPessoa.Pessoa;
 import mpoo.ufrpe.projetoalergia.dominio.dominoRemedio.RemedioDTO;
 import mpoo.ufrpe.projetoalergia.negocio.Sessao;
 
-/**
- * Created by Airton on 11/11/2015.
- */
+
 public class PerfilUsuarioActivity extends AppCompatActivity implements View.OnClickListener, AdapterView.OnItemClickListener {
 
     private static Context contexto;

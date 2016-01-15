@@ -6,9 +6,7 @@ import mpoo.ufrpe.projetoalergia.R;
 import mpoo.ufrpe.projetoalergia.dao.Helper;
 import mpoo.ufrpe.projetoalergia.gui.GuiUtil;
 
-/**
- * Created by Airton on 12/11/2015.
- */
+
 public class ScriptPopularTabelaSQL {
     public static void insertRemedioDB(SQLiteDatabase db){
 

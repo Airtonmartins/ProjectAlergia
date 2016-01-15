@@ -7,9 +7,7 @@ import mpoo.ufrpe.projetoalergia.negocio.Sessao;
 
 import static java.lang.Math.sqrt;
 
-/**
- * Created by Allan on 01/11/2015.
- */
+
 public class Util  {
 
     public static Sessao sessao = Sessao.getInstancia();

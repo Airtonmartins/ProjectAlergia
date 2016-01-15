@@ -12,9 +12,7 @@ import java.util.List;
 import mpoo.ufrpe.projetoalergia.R;
 import mpoo.ufrpe.projetoalergia.dominio.dominoRemedio.Componente;
 
-/**
- * Created by Airton on 08/11/2015.
- */
+
 public class AdapterListComponente extends BaseAdapter {
 
     private LayoutInflater mInflater;

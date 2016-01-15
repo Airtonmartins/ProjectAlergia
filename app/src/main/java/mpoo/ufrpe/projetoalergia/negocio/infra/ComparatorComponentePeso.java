@@ -4,9 +4,7 @@ import java.util.Comparator;
 
 import mpoo.ufrpe.projetoalergia.dominio.dominoRemedio.Componente;
 
-/**
- * Created by Airton on 10/11/2015.
- */
+
 public class ComparatorComponentePeso implements Comparator<Componente> {
 
     public int compare(Componente primeiroComponente, Componente segundaComponente) {
